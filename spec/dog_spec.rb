@@ -1,3 +1,6 @@
+require "pry"
+require "dog_spec"
+
 describe "Dog" do
   let(:teddy) { Dog.new(name: "Teddy", breed: "cockapoo") }
 
